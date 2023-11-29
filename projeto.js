@@ -1,7 +1,5 @@
-let heroi = "aspas"
-let xp = 15.00
-let elo = ""
-
+desafiandoHeroi("aspas",7.000, )
+function desafiandoHeroi(heroi,xp,elo){
 if (xp < 1.000) {
     elo = "ferro";
 
@@ -33,3 +31,5 @@ else if (xp >= 10.001) {
     elo = "Radiante";
 }
 console.log(`O Herói de nome ${[heroi]} está no nível de ${elo}`);
+
+}
